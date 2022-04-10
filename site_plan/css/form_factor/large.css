@@ -1,0 +1,35 @@
+/* ########################################################################################## */
+/* ###                      Large CSS with the focus on Mobile First                      ### */
+/* ########################################################################################## */
+
+
+@media only screen and (min-width: 1000px) {
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> HEADER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  /* Pending */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NAVIGATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  /* Pending */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CONTENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  /* Pending */
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+  /* Pending */
+}
+
+/* Medium Devices, Desktops */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* TODO: Go over this really well, to create an amazing responsive website, reference https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
+/* Large Devices, Wide Screens */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width : 1200px) {
+
+}
