@@ -1,42 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
+<!-- ----------------------------------------- METADATA --------------------------------------- -->
     <meta charset="UTF-8">
     <meta name="author" content="Gibran & Sara Castillo">
     <meta name="description" content="CCC Website Site Plan">
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
     <!-- Tells smartphones to provide their correct width & stops the font from enlarging when a smartphone is turned sideways -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <title>CCC Site Plan</title>
+<!-- x-------------------x-------------------x METADATA x-------------------x-----------------x -->
 
-<!-- ----------------------------------------- STYLE SHEETS ----------------------------------------- -->
+
+<!-- --------------------------------------- STYLE SHEETS ------------------------------------- -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/standard.css">
     <link rel="stylesheet" href="../css/form_factor/small.css">  <!-- smartphone-default -->
     <link rel="stylesheet" href="../css/form_factor/medium.css"> <!-- enhance-tablet -->
     <link rel="stylesheet" href="../css/form_factor/large.css">  <!-- enhance-desktop -->
     <link rel="stylesheet" href="../css/home/styles.css">
-<!-- x-------------------x-------------------x STYLE SHEETS x-------------------x-------------------x -->
-    
-    <title>CCC Site Plan</title>
+<!-- x-------------------x-----------------x STYLE SHEETS x------------------x----------------x -->
   </head>
 
   <body>
-
-<!-- ----------------------------------------- HEADER ----------------------------------------- -->
-    <header>
-      <div id="site-info">
-        <section>
-          <img id="site-logo" src="../assets/ccc_logo.png" alt="CCC Logo Image">
-          <h1 id="site-title">Digital Business</h1>
-          <h2 id="site-motto">Digital Transformation</h2>
-        </section>
-      </div>
-    </header>
-<!-- x-------------------x-------------------x HEADER x-------------------x-------------------x -->
+<!-- ------------------------------------------ HEADER ---------------------------------------- -->
+    <header id="main-header"></header>
+<!-- x-------------------x-------------------x HEADER x--------------------x------------------x -->
 
 
-<!-- -------------------------------------- NAVIGATION --------------------------------------- -->
+<!-- -------------------------------------- NAVIGATION ---------------------------------------- -->
     <nav>
       <div>
         <!-- <button id="hamburger-btn">🛵</button> -->
@@ -52,29 +44,27 @@
         </ul>
       </div>
     </nav>
-<!-- x------------------x-----------------x NAVIGATION x------------------x------------------x -->
+<!-- x------------------x-----------------x NAVIGATION x------------------x-------------------x -->
 
 
 <!-- ---------------------------------------- CONTENT ----------------------------------------- -->
     <main>
-      <h1>Castillo Computer Consulting</h1>
+      <h1>Castillo Consulting Company</h1>
       <!-- Pending!! -->
     </main>
 <!-- x-----------------x--------------------x CONTENT x------------------x--------------------x -->
     
 
 <!-- ----------------------------------------- FOOTER ----------------------------------------- -->
-    <footer>
-      <!-- Pending! -->
-    </footer>
+    <footer id="main-footer"></footer>
+    <span id="last_updated"></span>
 <!-- x-----------------x---------------------x FOOTER x------------------x--------------------x -->
 
-
-    <span id="last_updated"></span>
-
+    
+<!-- --------------------------------------- JavaScript --------------------------------------- -->
+    <script src="../js/main.js" type="module"></script>
     <script src="../js/toggle_menu.js"></script>
-    <script src="../js/date_info.js" defer></script>
-    <script src="../js/images_lazy_load.js" defer></script>
-
+    <script src="../js/date_info.js"></script>
+<!-- x-----------------x-------------------x JavaScript x----------------x--------------------x -->
   </body>
 </html>
